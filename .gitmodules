@@ -1,0 +1,6 @@
+[submodule "TensorNAS"]
+	path = TensorNAS
+	url = https://github.com/alxhoff/TensorNAS.git
+[submodule "Demos"]
+	path = Demos
+	url = https://github.com/alxhoff/TensorNAS-Demos.git
