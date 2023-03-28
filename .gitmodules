@@ -1,8 +1,8 @@
 [submodule "TensorNAS"]
 	path = TensorNAS
-	url = git@github.com:alxhoff/TensorNAS.git
+	url = git@github.com:Laminfr/TensorNAS.git
 [submodule "Demos"]
 	path = Demos
-	url = git@github.com:alxhoff/TensorNAS-Demos.git
+	url = git@github.com:Laminfr/TensorNAS-Demos.git
 [submodule "bar1"]
 	branch = master
