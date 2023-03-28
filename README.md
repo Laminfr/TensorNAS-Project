@@ -18,4 +18,13 @@ you can either symlink your CUDA libraries, probably in `/opt/cuda` via
 
 `sudo ln -s /opt/cuda/ /usr/local/cuda`
 
-or set `CUDA_DIR` via
+or set `CUDA_DIR` and some other dependencies by exporting them to your `.bashrc` or your `.profile`.
+
+Example, adding the following to your `.bashrc`
+
+```
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/cuda/lib64"
+export CUDA_HOME=/opt/cuda/
+export PATH="/opt/cuda/bin:$PATH"
+export CPATH="/opt/cuda/include:$CPATH"  
+```
