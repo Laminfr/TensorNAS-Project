@@ -5,6 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: DemoEASimple_3D",
+            "type": "python",
+            "request": "launch",
+            "module": "DemoEASimple",
+            "args": "--config Standalone/paper_tests/MNIST_all_mutation_simplified_3D.cfg",
+            "env": {
+                "PYTHONPATH": "/home/aminef/Documents/BA-Project/solve_issues/TensorNAS-Project/Demos/DEAP"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
             "name": "Python: DemoEASimple",
             "type": "python",
             "request": "launch",
