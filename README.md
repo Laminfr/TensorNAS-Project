@@ -1,6 +1,6 @@
 # TensorNAS-Project
 
-git clone --recurse-submodules https://github.com/alxhoff/TensorNAS-Project.git
+git clone --recurse-submodules https://github.com/Laminfr/TensorNAS-Project.git
 
 # Requirements
 
